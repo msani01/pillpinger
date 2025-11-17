@@ -152,8 +152,8 @@ const Page = () => {
         {/* Left Side*/}
         <div className="max-w-xl space-y-4">
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-            Stay on <span className="text-[#FF7F00]">Track</span>, <br />
-            Stay <span className="text-[#FF7F00]">Healthy</span>
+            Stay on <span className="text-orange-500">Track</span>, <br />
+            Stay <span className="text-orange-500">Healthy</span>
           </h1>
 
           <p className="text-white/80 text-base leading-relaxed">

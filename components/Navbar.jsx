@@ -19,14 +19,19 @@ const Navbar = () => {
             </ul>
     
             <div className="flex gap-3">
+                <Link href={"/login"}>
                 <button className="bg-[#FF7F00] hover:bg-[#ff9933] text-white px-5 py-2
                  rounded-sm font-medium">
                 Sign Up
                 </button>
+                </Link>
+                <Link href={"/login"}>
                 <button className="border border-[#FF7F00] hover:bg-[#FF7F00] 
                 hover:text-white text-[#FF7F00] px-5 py-2 rounded-sm font-medium">
                 Log in
                 </button>
+                </Link>
+                
             </div>
         </section>
     </main>
