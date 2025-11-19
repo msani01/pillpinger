@@ -51,7 +51,7 @@ const ClientSidebar = () => {
              <FiLogOut className="text-lg" />
              Logout
            </div>
-         </aside>
+    </aside>
   )
 }
 
